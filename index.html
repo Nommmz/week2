@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Mahasiswa Prodi Ilmu Komputer </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        .nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .nav ul li {
+            margin: 0 10px;
+        }
+        .main-content {
+            padding: 20px 0;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Data Mahasiswa Universitas Pertamina</h1>
+        </header>
+
+        <div class="image-container">
+            <img src="./uper.jpeg" alt="Gedung Universitas Pertamina">
+        </div>
+        
+        <div class="university-link">
+            <a href="https://universitaspertamina.ac.id"> klik disini untuk membuka web kampus</a>
+        </div>
+        
+        
+        <nav class="nav">
+            <ul>
+                <li><a href="#info">Informasi Umum</a></li>
+                <li><a href="#data">Data Mahasiswa Prodi Ilmu Komputer</a></li>
+                <li><a href="#list-mahasiswa">Data Mahasiswa</a></li>
+            </ul>
+        </nav>
+        
+        <main class="main-content">
+            <section id="info">
+                <h2>Informasi Umum</h2>
+                <div class="info-content">
+                    <p>Berikut adalah data mahasiswa untuk kelas <strong>Pemrograman Web</strong> di <em>Universitas Pertamina</em>. Data ini mencakup informasi pribadi dan akademik dari setiap mahasiswa.</p>
+                    <p>Keterangan status: <mark>Aktif</mark> berarti mahasiswa sedang mengambil mata kuliah ini.</p>
+                </div>
+            </section>
+            
+            <section id="data">
+                <h2>Data Mahasiswa Prodi Ilmu Komputer</h2>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th rowspan="2">No.</th>
+                                <th rowspan="2">Nama</th>
+                                <th rowspan="2">NIM</th>
+                                <th colspan="2">Nilai</th>
+                                <th rowspan="2">Status</th>
+                            </tr>
+                            <tr>
+                                <th>UTS</th>
+                                <th>UAS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Anom Wajawening</td>
+                                <td>105222029</td>
+                                <td>100</td>
+                                <td>95</td>
+                                <td>Aktif</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Benony Gabriel</td>
+                                <td>105222002</td>
+                                <td>88</td>
+                                <td>85</td>
+                                <td>Aktif</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Alghifari Rasyid Zola</td>
+                                <td>105222006</td>
+                                <td>92</td>
+                                <td>95</td>
+                                <td>Aktif</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Zacky Said</td>
+                                <td>105222046</td>
+                                <td>100</td>
+                                <td>95</td>
+                                <td>Aktif</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="list-mahasiswa">
+                <h2>Data Mahasiswa</h2>
+                <h3>List Angkatan 22 yang sedang Aktif</h3>
+                <ol>
+                    <li>Anom Wajawening - NIM: 105222029</li>
+                    <li>Benony Gabriel - NIM: 105222002</li>
+                    <li>Alghifari Rasyid Zola - NIM: 105222006</li>
+                    <li>Zacky Said - NIM: 105222046</li>
+                </ol>
+
+                <h3>List Matakuliah Ilmu komputer</h3>
+                <ul>
+                    <li>Pemrograman web</li>
+                    <li>Pengantar Saints Data</li>
+                    <li>Perancangan dan Analisis Algoritma</li>
+                    <li>Sistem Informasi</li>
+                </ul>
+            </section>
+        </main>
+        
+        <footer class="footer">
+            <p>&copy; 2024 Universitas Pertamina. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
